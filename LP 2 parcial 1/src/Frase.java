@@ -5,19 +5,19 @@ public class Frase {
     private List<Traduccion> traducciones;
 
     // Getters y Setters
-    public String getTexto() {
+    public String gettexto() {
         return texto;
     }
 
-    public void setTexto(String texto) {
+    public void settexto(String texto) {
         this.texto = texto;
     }
 
-    public List<Traduccion> getTraducciones() {
+    public List<Traduccion> gettraducciones() {
         return traducciones;
     }
 
-    public void setTraducciones(List<Traduccion> traducciones) {
+    public void settraducciones(List<Traduccion> traducciones) {
         this.traducciones = traducciones;
     }
 }

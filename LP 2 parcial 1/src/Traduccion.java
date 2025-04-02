@@ -3,19 +3,19 @@ public class Traduccion {
     private String textoTraducido;
 
     // Getters y Setters
-    public String getIdioma() {
+    public String getidioma() {
         return idioma;
     }
 
-    public void setIdioma(String idioma) {
+    public void setidioma(String idioma) {
         this.idioma = idioma;
     }
 
-    public String getTextoTraducido() {
+    public String gettextoTraducido() {
         return textoTraducido;
     }
 
-    public void setTextoTraducido(String textoTraducido) {
+    public void settextoTraducido(String textoTraducido) {
         this.textoTraducido = textoTraducido;
     }
 }
